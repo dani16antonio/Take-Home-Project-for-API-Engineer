@@ -11,5 +11,3 @@ def get_all_meal(db:Session, date:str, type_:str):
         .filter(and_(WeekDB.start_date<=date, WeekDB.end_date>=date))\
         .filter(MealWeekDB.meal_id==MealDB.id, MealWeekDB.week_id==WeekDB.id)\
         .all()
-    # return db.query(MealDB).first()
-    # return db.query(MealDB).join(MealWeekDB, MealDB.id==MealWeekDB.meal_id).join(WeekDB, MealWeekDB.week_id==WeekDB.id).all()

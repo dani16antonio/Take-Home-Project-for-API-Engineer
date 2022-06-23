@@ -12,7 +12,7 @@ def get_settings():
 
 
 # SQLALCHEMY_DATABASE_URL = f'mysql+pymysql://{get_settings().DATABASE_USER}:{get_settings().DATABASE_PASSWORD}@{get_settings().DATABASE_HOST}:{get_settings().DATABASE_PORT}/{get_settings().DATABASE_SCHEMA}'
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./db.db'
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./db.db'  # TODO: Change it to the remote database
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
