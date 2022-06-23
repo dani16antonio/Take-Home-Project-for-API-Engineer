@@ -3,11 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from utils.settings import Settings
-
-@lru_cache()
-def get_settings():
-    return Settings()
+# from utils.settings import get_settings
 
 
 
