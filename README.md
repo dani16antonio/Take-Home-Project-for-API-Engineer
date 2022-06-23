@@ -22,7 +22,7 @@ Once everything is ready execute this code to run the project:
 `uvicorn main:app`
 
 ## Make a request
-In order to make a request, make a `GET` request to `/menu/<YYYY-MM-DD>/<type>`
+In order to make a request, make a `GET` request to `/menu/<YYYY-MM-DD>/<type>`, but before you need to authenticate, use **danicrack** as username and **bigpass** as password.
 
 NOTE:`<YYYY-MM-DD>` is a date i.e. **2021-03-03** and `<type>` is a string i.e. **MEAL_KIT**.
 
