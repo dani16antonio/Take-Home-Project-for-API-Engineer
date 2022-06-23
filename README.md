@@ -26,4 +26,6 @@ In order to make a request, make a `GET` request to `/menu/<YYYY-MM-DD>/<type>`
 
 NOTE:`<YYYY-MM-DD>` is a date i.e. **2021-03-03** and `<type>` is a string i.e. **MEAL_KIT**.
 
+### You can change to development branch where authentication was implemented
+
 Thank you for reading.
